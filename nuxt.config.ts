@@ -7,10 +7,15 @@ export default defineNuxtConfig({
     // prerender index route by default
     '/': { prerender: true },
   },
-  css: ['~/public/assets/css/main.css'],
+  css: ['~/assets/css/main.css'],
   vite: {
     plugins: [
       tailwindcss(),
     ]
-  }
+  },
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,    },
+  ],
 });
