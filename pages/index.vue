@@ -4,8 +4,8 @@ const { x, y } = useMouse()
 
 </script>
 <template>
-  <div class="w-screen h-screen from-indigo-200 to-violet-300 bg-gradient-to-b from-50% relative overflow-hidden">
-    <div class="absolute bg-pink-200 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none blur-3xl" :style="{
+  <div class="w-screen h-screen from-new-pink to-new-dark-pink bg-gradient-to-b relative overflow-hidden">
+    <div class="absolute bg-pink-300/60 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none blur-3xl" :style="{
       left: `${x}px`,
       top: `${y}px`,
       width: `200px`,

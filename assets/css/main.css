@@ -3,6 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@theme {
+    --color-new-pink: #EBB9FF;
+    --color-new-dark-pink: #BF9DC4;
+    --color-new-dark-purple: #9D48BF;
+    --color-new-purple: #A785D7;
+    --color-new-ithinkimcolorblind: #9C6BAD;
+}
 body {
     font-family: 'Signika Negative', sans-serif;
 }
