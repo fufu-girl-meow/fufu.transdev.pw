@@ -53,7 +53,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/google-fonts', '@tailwindcss/vite'],
   googleFonts: {
     families: {
-      'Signika Negative': true
+      'Itim': true
     },
     display: 'swap'
   }

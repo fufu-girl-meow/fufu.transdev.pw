@@ -11,5 +11,9 @@
     --color-new-ithinkimcolorblind: #9C6BAD;
 }
 body {
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Itim', sans-serif;
+    background-image: url(../background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
