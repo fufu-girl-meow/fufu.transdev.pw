@@ -1,11 +1,8 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.background-global {
-    background-image: url('../background.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
+body {
+    font-family: 'Signika Negative', sans-serif;
 }
